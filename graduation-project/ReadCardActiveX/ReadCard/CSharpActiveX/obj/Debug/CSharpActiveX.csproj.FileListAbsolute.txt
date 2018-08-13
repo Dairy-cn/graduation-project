@@ -1,0 +1,21 @@
+c:\users\apollo\documents\visual studio 2010\Projects\CSharpActiveX\CSharpActiveX\bin\Debug\CSharpActiveX.dll
+c:\users\apollo\documents\visual studio 2010\Projects\CSharpActiveX\CSharpActiveX\bin\Debug\CSharpActiveX.pdb
+c:\users\apollo\documents\visual studio 2010\Projects\CSharpActiveX\CSharpActiveX\obj\Debug\ResolveAssemblyReference.cache
+c:\users\apollo\documents\visual studio 2010\Projects\CSharpActiveX\CSharpActiveX\obj\Debug\CSharpActiveX.dll
+c:\users\apollo\documents\visual studio 2010\Projects\CSharpActiveX\CSharpActiveX\obj\Debug\CSharpActiveX.pdb
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\bin\Debug\CSharpActiveX.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\bin\Debug\CSharpActiveX.pdb
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\obj\Debug\CSharpActiveX.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\obj\Debug\CSharpActiveX.pdb
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\obj\Debug\CSharpActiveX.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\bin\Debug\Interop.ATLUMFLib.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\CSharpActiveX\obj\Debug\Interop.ATLUMFLib.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\bin\Debug\CSharpActiveX.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\bin\Debug\CSharpActiveX.pdb
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\bin\Debug\CSharpActiveX.tlb
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\bin\Debug\Interop.ATLUMFLib.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\obj\Debug\CSharpActiveX.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\obj\Debug\Interop.ATLUMFLib.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\obj\Debug\CSharpActiveX.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\obj\Debug\CSharpActiveX.dll
+C:\Users\Administrator\Desktop\空间制作工具\Apollo.Blog.CSharpActiveX\src\ReadCard\CSharpActiveX\obj\Debug\CSharpActiveX.pdb

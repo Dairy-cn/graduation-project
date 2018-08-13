@@ -1,0 +1,917 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>江南大学教育技术实验室签到系统1.0</Name>
+    <Description>&lt;没有可用的说明&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>江南大学教育技术实验室签到系统1.0</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddCategory.aspx">AddCategory.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddCategory.aspx.cs">AddCategory.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminEdit.aspx">AdminEdit.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminEdit.aspx.cs">AdminEdit.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminList.aspx">AdminList.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AdminList.aspx.cs">AdminList.aspx.cs</ProjectItem>
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DataBase.cs">DataBase.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ShowInfo.cs">ShowInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="aspnet_client" TargetFolderName="aspnet_client">
+        <Folder Name="system_web" TargetFolderName="system_web">
+          <Folder Name="2_0_50727" TargetFolderName="2_0_50727">
+            <Folder Name="CrystalReportWebFormViewer4" TargetFolderName="CrystalReportWebFormViewer4">
+              <Folder Name="css" TargetFolderName="css">
+                <ProjectItem ReplaceParameters="true" TargetFileName="default.css">default.css</ProjectItem>
+              </Folder>
+              <Folder Name="html" TargetFolderName="html">
+                <ProjectItem ReplaceParameters="true" TargetFileName="calendar.html">calendar.html</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="calendarbottom.html">calendarbottom.html</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="calendartop.html">calendartop.html</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="crystalexportdialog.htm">crystalexportdialog.htm</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="crystalprinthost.html">crystalprinthost.html</ProjectItem>
+              </Folder>
+              <Folder Name="images" TargetFolderName="images">
+                <Folder Name="toolbar" TargetFolderName="toolbar">
+                  <ProjectItem ReplaceParameters="false" TargetFileName="calendar.gif">calendar.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="crlogo.gif">crlogo.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="export.gif">export.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="export_over.gif">export_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="exportd.gif">exportd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="First.gif">First.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="first_over.gif">first_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Firstd.gif">Firstd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="gotopage.gif">gotopage.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="gotopage_over.gif">gotopage_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="gotopaged.gif">gotopaged.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="grouptree.gif">grouptree.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="grouptree_over.gif">grouptree_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="grouptreed.gif">grouptreed.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="grouptreepressed.gif">grouptreepressed.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Last.gif">Last.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="last_over.gif">last_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Lastd.gif">Lastd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Next.gif">Next.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="next_over.gif">next_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Nextd.gif">Nextd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Prev.gif">Prev.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="prev_over.gif">prev_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Prevd.gif">Prevd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="print.gif">print.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="print_over.gif">print_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="printd.gif">printd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Refresh.gif">Refresh.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="refresh_over.gif">refresh_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="refreshd.gif">refreshd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Search.gif">Search.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="search_over.gif">search_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="searchd.gif">searchd.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="up.gif">up.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="up_over.gif">up_over.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="upd.gif">upd.gif</ProjectItem>
+                </Folder>
+                <Folder Name="tree" TargetFolderName="tree">
+                  <ProjectItem ReplaceParameters="false" TargetFileName="begindots.gif">begindots.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="beginminus.gif">beginminus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="beginplus.gif">beginplus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="blank.gif">blank.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="blankdots.gif">blankdots.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="dots.gif">dots.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="lastdots.gif">lastdots.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="lastminus.gif">lastminus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="lastplus.gif">lastplus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="Magnify.gif">Magnify.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="minus.gif">minus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="minusbox.gif">minusbox.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="plus.gif">plus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="plusbox.gif">plusbox.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="singleminus.gif">singleminus.gif</ProjectItem>
+                  <ProjectItem ReplaceParameters="false" TargetFileName="singleplus.gif">singleplus.gif</ProjectItem>
+                </Folder>
+              </Folder>
+              <Folder Name="js" TargetFolderName="js">
+                <ProjectItem ReplaceParameters="true" TargetFileName="calendar_param.js">calendar_param.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="dt_param.js">dt_param.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="export.js">export.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="KeyDownEvent.js">KeyDownEvent.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="print.js">print.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="prompts_param.js">prompts_param.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_chs.js">strings_chs.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_cht.js">strings_cht.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_de.js">strings_de.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_en.js">strings_en.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_es.js">strings_es.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_fr.js">strings_fr.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_it.js">strings_it.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_ja.js">strings_ja.js</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="strings_ko.js">strings_ko.js</ProjectItem>
+              </Folder>
+            </Folder>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Bin" TargetFolderName="Bin">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Newtonsoft.Json.dll">Newtonsoft.Json.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Newtonsoft.Json.dll.refresh">Newtonsoft.Json.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Newtonsoft.Json.xml">Newtonsoft.Json.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.dll">System.Net.Http.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.dll.refresh">System.Net.Http.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="System.Net.Http.xml">System.Net.Http.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.Formatting.dll">System.Net.Http.Formatting.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.Formatting.dll.refresh">System.Net.Http.Formatting.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="System.Net.Http.Formatting.xml">System.Net.Http.Formatting.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.WebRequest.dll">System.Net.Http.WebRequest.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.WebRequest.dll.refresh">System.Net.Http.WebRequest.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="System.Net.Http.WebRequest.xml">System.Net.Http.WebRequest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Web.Http.dll">System.Web.Http.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Web.Http.dll.refresh">System.Web.Http.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="System.Web.Http.xml">System.Web.Http.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Web.Http.WebHost.dll">System.Web.Http.WebHost.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="System.Web.Http.WebHost.dll.refresh">System.Web.Http.WebHost.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="System.Web.Http.WebHost.xml">System.Web.Http.WebHost.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ThoughtWorks.QRCode.dll">ThoughtWorks.QRCode.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ThoughtWorks.QRCode.dll.refresh">ThoughtWorks.QRCode.dll.refresh</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CardPic.aspx">CardPic.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CardPic.aspx.cs">CardPic.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CategoryProvien.aspx">CategoryProvien.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CategoryProvien.aspx.cs">CategoryProvien.aspx.cs</ProjectItem>
+      <Folder Name="Content" TargetFolderName="Content">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.8.0.min.js">jquery-1.8.0.min.js</ProjectItem>
+        <Folder Name="My97DatePicker" TargetFolderName="My97DatePicker">
+          <ProjectItem ReplaceParameters="true" TargetFileName="calendar.js">calendar.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="config.js">config.js</ProjectItem>
+          <Folder Name="lang" TargetFolderName="lang">
+            <ProjectItem ReplaceParameters="true" TargetFileName="en.js">en.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="zh-cn.js">zh-cn.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="zh-tw.js">zh-tw.js</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="My97DatePicker.htm">My97DatePicker.htm</ProjectItem>
+          <Folder Name="skin" TargetFolderName="skin">
+            <ProjectItem ReplaceParameters="false" TargetFileName="datePicker.gif">datePicker.gif</ProjectItem>
+            <Folder Name="default" TargetFolderName="default">
+              <ProjectItem ReplaceParameters="true" TargetFileName="datepicker.css">datepicker.css</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="WdatePicker.css">WdatePicker.css</ProjectItem>
+            <Folder Name="whyGreen" TargetFolderName="whyGreen">
+              <ProjectItem ReplaceParameters="false" TargetFileName="bg.jpg">bg.jpg</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="datepicker.css">datepicker.css</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WdatePicker.js">WdatePicker.js</ProjectItem>
+          <Folder Name="vstg0001" TargetFolderName="开发包">
+            <Folder Name="lang" TargetFolderName="lang">
+              <ProjectItem ReplaceParameters="true" TargetFileName="en.js">en.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="zh-cn.js">zh-cn.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="zh-tw.js">zh-tw.js</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+            <Folder Name="skin" TargetFolderName="skin">
+              <ProjectItem ReplaceParameters="false" TargetFileName="datePicker.gif">datePicker.gif</ProjectItem>
+              <Folder Name="default" TargetFolderName="default">
+                <ProjectItem ReplaceParameters="true" TargetFileName="datepicker.css">datepicker.css</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="WdatePicker.css">WdatePicker.css</ProjectItem>
+              <Folder Name="whyGreen" TargetFolderName="whyGreen">
+                <ProjectItem ReplaceParameters="false" TargetFileName="bg.jpg">bg.jpg</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="datepicker.css">datepicker.css</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+              </Folder>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="使用方法.txt">vstg0002.txt</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="History" TargetFolderName="History">
+        <ProjectItem ReplaceParameters="true" TargetFileName="nianchan.aspx">nianchan.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="nianchan.aspx.cs">nianchan.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="nianchao.aspx">nianchao.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="nianchao.aspx.cs">nianchao.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="richan.aspx">richan.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="richan.aspx.cs">richan.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="shebei.aspx">shebei.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="shebei.aspx.cs">shebei.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="yuechan.aspx">yuechan.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="yuechan.aspx.cs">yuechan.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="yuechao.aspx">yuechao.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="yuechao.aspx.cs">yuechao.aspx.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Index.aspx">Index.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Index.aspx.cs">Index.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KaoQinDetail.aspx">KaoQinDetail.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KaoQinDetail.aspx.cs">KaoQinDetail.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KaoQinEdit.aspx">KaoQinEdit.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KaoQinEdit.aspx.cs">KaoQinEdit.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KeChengList.aspx">KeChengList.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KeChengList.aspx.cs">KeChengList.aspx.cs</ProjectItem>
+      <Folder Name="lib" TargetFolderName="lib">
+        <ProjectItem ReplaceParameters="false" TargetFileName="ThoughtWorks.QRCode.dll">ThoughtWorks.QRCode.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ThoughtWorks.QRCode.dll.refresh">ThoughtWorks.QRCode.dll.refresh</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx">Login.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx.cs">Login.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master">MasterPage.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master.cs">MasterPage.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberEdit.aspx">MemberEdit.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberEdit.aspx.cs">MemberEdit.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberList.aspx">MemberList.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MemberList.aspx.cs">MemberList.aspx.cs</ProjectItem>
+      <Folder Name="Movie" TargetFolderName="Movie">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ajax.aspx">ajax.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ajax.aspx.cs">ajax.aspx.cs</ProjectItem>
+        <Folder Name="cabs" TargetFolderName="cabs">
+          <ProjectItem ReplaceParameters="false" TargetFileName="ImageCapOnWeb.cab">ImageCapOnWeb.cab</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Package.cab">Package.cab</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Detail.aspx">Detail.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Detail.aspx.cs">Detail.aspx.cs</ProjectItem>
+        <Folder Name="js" TargetFolderName="js">
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.2.min.js">jquery-1.4.2.min.js</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyInfo.aspx">MyInfo.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyInfo.aspx.cs">MyInfo.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyKaoQin.aspx">MyKaoQin.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MyKaoQin.aspx.cs">MyKaoQin.aspx.cs</ProjectItem>
+      <Folder Name="packages" TargetFolderName="packages">
+        <Folder Name="Microsoft.AspNet.WebApi.4.0.20710.0" TargetFolderName="Microsoft.AspNet.WebApi.4.0.20710.0">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.WebApi.4.0.20710.0.nupkg">Microsoft.AspNet.WebApi.4.0.20710.0.nupkg</ProjectItem>
+        </Folder>
+        <Folder Name="Microsoft.AspNet.WebApi.Client.4.0.20710.0" TargetFolderName="Microsoft.AspNet.WebApi.Client.4.0.20710.0">
+          <Folder Name="lib" TargetFolderName="lib">
+            <Folder Name="net40" TargetFolderName="net40">
+              <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.Formatting.dll">System.Net.Http.Formatting.dll</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="System.Net.Http.Formatting.xml">System.Net.Http.Formatting.xml</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.WebApi.Client.4.0.20710.0.nupkg">Microsoft.AspNet.WebApi.Client.4.0.20710.0.nupkg</ProjectItem>
+        </Folder>
+        <Folder Name="Microsoft.AspNet.WebApi.Core.4.0.20710.0" TargetFolderName="Microsoft.AspNet.WebApi.Core.4.0.20710.0">
+          <Folder Name="content" TargetFolderName="content">
+            <ProjectItem ReplaceParameters="false" TargetFileName="web.config.transform">web.config.transform</ProjectItem>
+          </Folder>
+          <Folder Name="lib" TargetFolderName="lib">
+            <Folder Name="net40" TargetFolderName="net40">
+              <ProjectItem ReplaceParameters="false" TargetFileName="System.Web.Http.dll">System.Web.Http.dll</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="System.Web.Http.xml">System.Web.Http.xml</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.WebApi.Core.4.0.20710.0.nupkg">Microsoft.AspNet.WebApi.Core.4.0.20710.0.nupkg</ProjectItem>
+        </Folder>
+        <Folder Name="Microsoft.AspNet.WebApi.WebHost.4.0.20710.0" TargetFolderName="Microsoft.AspNet.WebApi.WebHost.4.0.20710.0">
+          <Folder Name="lib" TargetFolderName="lib">
+            <Folder Name="net40" TargetFolderName="net40">
+              <ProjectItem ReplaceParameters="false" TargetFileName="System.Web.Http.WebHost.dll">System.Web.Http.WebHost.dll</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="System.Web.Http.WebHost.xml">System.Web.Http.WebHost.xml</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.WebApi.WebHost.4.0.20710.0.nupkg">Microsoft.AspNet.WebApi.WebHost.4.0.20710.0.nupkg</ProjectItem>
+        </Folder>
+        <Folder Name="Microsoft.Net.Http.2.0.20710.0" TargetFolderName="Microsoft.Net.Http.2.0.20710.0">
+          <Folder Name="lib" TargetFolderName="lib">
+            <Folder Name="net40" TargetFolderName="net40">
+              <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.dll">System.Net.Http.dll</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="System.Net.Http.xml">System.Net.Http.xml</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.Http.WebRequest.dll">System.Net.Http.WebRequest.dll</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="System.Net.Http.WebRequest.xml">System.Net.Http.WebRequest.xml</ProjectItem>
+            </Folder>
+            <Folder Name="net45" TargetFolderName="net45">
+              <ProjectItem ReplaceParameters="false" TargetFileName="_._">_._</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Net.Http.2.0.20710.0.nupkg">Microsoft.Net.Http.2.0.20710.0.nupkg</ProjectItem>
+        </Folder>
+        <Folder Name="Newtonsoft.Json.4.5.6" TargetFolderName="Newtonsoft.Json.4.5.6">
+          <Folder Name="lib" TargetFolderName="lib">
+            <Folder Name="net40" TargetFolderName="net40">
+              <ProjectItem ReplaceParameters="false" TargetFileName="Newtonsoft.Json.dll">Newtonsoft.Json.dll</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="Newtonsoft.Json.xml">Newtonsoft.Json.xml</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Newtonsoft.Json.4.5.6.nupkg">Newtonsoft.Json.4.5.6.nupkg</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="repositories.config">repositories.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="QRCodeImages" TargetFolderName="QRCodeImages">
+        <ProjectItem ReplaceParameters="false" TargetFileName="1431230663.png">1431230663.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="1431230857.png">1431230857.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="1431231168.png">1431231168.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="1431231201.png">1431231201.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="1431231267.png">1431231267.png</ProjectItem>
+      </Folder>
+      <Folder Name="Resource" TargetFolderName="Resource">
+        <Folder Name="css" TargetFolderName="css">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ext-all-notheme.css">ext-all-notheme.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ext-all.css">ext-all.css</ProjectItem>
+          <Folder Name="gray" TargetFolderName="gray">
+            <ProjectItem ReplaceParameters="true" TargetFileName="ui-page.css">ui-page.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="xtheme.css">xtheme.css</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Info.css">Info.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="member.css">member.css</ProjectItem>
+        </Folder>
+        <Folder Name="Images" TargetFolderName="Images">
+          <Folder Name="default" TargetFolderName="default">
+            <Folder Name="box" TargetFolderName="box">
+              <ProjectItem ReplaceParameters="false" TargetFileName="corners-blue.gif">corners-blue.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="corners.gif">corners.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="l-blue.gif">l-blue.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="l.gif">l.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="r-blue.gif">r-blue.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="r.gif">r.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-blue.gif">tb-blue.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb.gif">tb.gif</ProjectItem>
+            </Folder>
+            <Folder Name="button" TargetFolderName="button">
+              <ProjectItem ReplaceParameters="false" TargetFileName="arrow.gif">arrow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn.gif">btn.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-cs.gif">group-cs.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-lr.gif">group-lr.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-tb.gif">group-tb.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-arrow-b-noline.gif">s-arrow-b-noline.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-arrow-b.gif">s-arrow-b.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-arrow-bo.gif">s-arrow-bo.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-arrow-noline.gif">s-arrow-noline.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-arrow-o.gif">s-arrow-o.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-arrow.gif">s-arrow.gif</ProjectItem>
+            </Folder>
+            <Folder Name="dd" TargetFolderName="dd">
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-add.gif">drop-add.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-no.gif">drop-no.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-yes.gif">drop-yes.gif</ProjectItem>
+            </Folder>
+            <Folder Name="editor" TargetFolderName="editor">
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-sprite.gif">tb-sprite.gif</ProjectItem>
+            </Folder>
+            <Folder Name="form" TargetFolderName="form">
+              <ProjectItem ReplaceParameters="false" TargetFileName="checkbox.gif">checkbox.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="clear-trigger.gif">clear-trigger.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="clear-trigger.psd">clear-trigger.psd</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="date-trigger.gif">date-trigger.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="date-trigger.psd">date-trigger.psd</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="error-tip-corners.gif">error-tip-corners.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="exclamation.gif">exclamation.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="radio.gif">radio.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="search-trigger.gif">search-trigger.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="search-trigger.psd">search-trigger.psd</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="text-bg1.gif">text-bg1.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="trigger-tpl.gif">trigger-tpl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="trigger.gif">trigger.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="trigger.psd">trigger.psd</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName="gradient-bg.gif">gradient-bg.gif</ProjectItem>
+            <Folder Name="grid" TargetFolderName="grid">
+              <ProjectItem ReplaceParameters="false" TargetFileName="arrow-left-white.gif">arrow-left-white.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="arrow-right-white.gif">arrow-right-white.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="col-move-bottom.gif">col-move-bottom.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="col-move-top.gif">col-move-top.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="columns.gif">columns.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="dirty.gif">dirty.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="done.gif">done.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-no.gif">drop-no.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-yes.gif">drop-yes.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="footer-bg.gif">footer-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid-blue-hd.gif">grid-blue-hd.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid-blue-split.gif">grid-blue-split.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid-hrow.gif">grid-hrow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid-loading.gif">grid-loading.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid-split.gif">grid-split.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid-vista-hd.gif">grid-vista-hd.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid3-hd-btn.gif">grid3-hd-btn.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid3-hrow-over.gif">grid3-hrow-over.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid3-hrow.gif">grid3-hrow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid3-special-col-bg.gif">grid3-special-col-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="grid3-special-col-sel-bg.gif">grid3-special-col-sel-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-by.gif">group-by.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-collapse.gif">group-collapse.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-expand-sprite.gif">group-expand-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-expand.gif">group-expand.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hd-pop.gif">hd-pop.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hmenu-asc.gif">hmenu-asc.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hmenu-desc.gif">hmenu-desc.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hmenu-lock.gif">hmenu-lock.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hmenu-lock.png">hmenu-lock.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hmenu-unlock.gif">hmenu-unlock.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hmenu-unlock.png">hmenu-unlock.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="invalid_line.gif">invalid_line.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="loading.gif">loading.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="mso-hd.gif">mso-hd.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="nowait.gif">nowait.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-first-disabled.gif">page-first-disabled.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-first.gif">page-first.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-last-disabled.gif">page-last-disabled.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-last.gif">page-last.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-next-disabled.gif">page-next-disabled.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-next.gif">page-next.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-prev-disabled.gif">page-prev-disabled.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="page-prev.gif">page-prev.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="pick-button.gif">pick-button.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="refresh.gif">refresh.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="row-check-sprite.gif">row-check-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="row-expand-sprite.gif">row-expand-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="row-over.gif">row-over.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="row-sel.gif">row-sel.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="sort-hd.gif">sort-hd.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="sort_asc.gif">sort_asc.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="sort_desc.gif">sort_desc.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="wait.gif">wait.gif</ProjectItem>
+            </Folder>
+            <Folder Name="layout" TargetFolderName="layout">
+              <ProjectItem ReplaceParameters="false" TargetFileName="collapse.gif">collapse.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="expand.gif">expand.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="gradient-bg.gif">gradient-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="mini-bottom.gif">mini-bottom.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="mini-left.gif">mini-left.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="mini-right.gif">mini-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="mini-top.gif">mini-top.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ns-collapse.gif">ns-collapse.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ns-expand.gif">ns-expand.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="panel-close.gif">panel-close.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="panel-title-bg.gif">panel-title-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="panel-title-light-bg.gif">panel-title-light-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="stick.gif">stick.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="stuck.gif">stuck.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-close-on.gif">tab-close-on.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-close.gif">tab-close.gif</ProjectItem>
+            </Folder>
+            <Folder Name="menu" TargetFolderName="menu">
+              <ProjectItem ReplaceParameters="false" TargetFileName="checked.gif">checked.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-checked.gif">group-checked.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="item-over.gif">item-over.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="menu-parent.gif">menu-parent.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="menu.gif">menu.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="unchecked.gif">unchecked.gif</ProjectItem>
+            </Folder>
+            <Folder Name="panel" TargetFolderName="panel">
+              <ProjectItem ReplaceParameters="false" TargetFileName="corners-sprite.gif">corners-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-right.gif">left-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="light-hd.gif">light-hd.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tool-sprite-tpl.gif">tool-sprite-tpl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tool-sprites.gif">tool-sprites.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tools-sprites-trans.gif">tools-sprites-trans.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.gif">top-bottom.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.png">top-bottom.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="white-corners-sprite.gif">white-corners-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="white-left-right.gif">white-left-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="white-top-bottom.gif">white-top-bottom.gif</ProjectItem>
+            </Folder>
+            <Folder Name="progress" TargetFolderName="progress">
+              <ProjectItem ReplaceParameters="false" TargetFileName="progress-bg.gif">progress-bg.gif</ProjectItem>
+            </Folder>
+            <Folder Name="qtip" TargetFolderName="qtip">
+              <ProjectItem ReplaceParameters="false" TargetFileName="bg.gif">bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="close.gif">close.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tip-anchor-sprite.gif">tip-anchor-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tip-sprite.gif">tip-sprite.gif</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName="s.gif">s.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="shadow-c.png">shadow-c.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="shadow-lr.png">shadow-lr.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="shadow.png">shadow.png</ProjectItem>
+            <Folder Name="shared" TargetFolderName="shared">
+              <ProjectItem ReplaceParameters="false" TargetFileName="blue-loading.gif">blue-loading.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="calendar.gif">calendar.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="glass-bg.gif">glass-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="hd-sprite.gif">hd-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="large-loading.gif">large-loading.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-btn.gif">left-btn.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="loading-balls.gif">loading-balls.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="right-btn.gif">right-btn.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="warning.gif">warning.gif</ProjectItem>
+            </Folder>
+            <Folder Name="sizer" TargetFolderName="sizer">
+              <ProjectItem ReplaceParameters="false" TargetFileName="e-handle-dark.gif">e-handle-dark.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="e-handle.gif">e-handle.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ne-handle-dark.gif">ne-handle-dark.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ne-handle.gif">ne-handle.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="nw-handle-dark.gif">nw-handle-dark.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="nw-handle.gif">nw-handle.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-handle-dark.gif">s-handle-dark.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s-handle.gif">s-handle.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="se-handle-dark.gif">se-handle-dark.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="se-handle.gif">se-handle.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="square.gif">square.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="sw-handle-dark.gif">sw-handle-dark.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="sw-handle.gif">sw-handle.gif</ProjectItem>
+            </Folder>
+            <Folder Name="slider" TargetFolderName="slider">
+              <ProjectItem ReplaceParameters="false" TargetFileName="slider-bg.png">slider-bg.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="slider-thumb.png">slider-thumb.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="slider-v-bg.png">slider-v-bg.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="slider-v-thumb.png">slider-v-thumb.png</ProjectItem>
+            </Folder>
+            <Folder Name="tabs" TargetFolderName="tabs">
+              <ProjectItem ReplaceParameters="false" TargetFileName="scroll-left.gif">scroll-left.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="scroll-right.gif">scroll-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="scroller-bg.gif">scroller-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-inactive-left-bg.gif">tab-btm-inactive-left-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-inactive-right-bg.gif">tab-btm-inactive-right-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-left-bg.gif">tab-btm-left-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-over-left-bg.gif">tab-btm-over-left-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-over-right-bg.gif">tab-btm-over-right-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-right-bg.gif">tab-btm-right-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-close.gif">tab-close.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-strip-bg.gif">tab-strip-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-strip-bg.png">tab-strip-bg.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-strip-btm-bg.gif">tab-strip-btm-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabs-sprite.gif">tabs-sprite.gif</ProjectItem>
+            </Folder>
+            <Folder Name="toolbar" TargetFolderName="toolbar">
+              <ProjectItem ReplaceParameters="false" TargetFileName="bg.gif">bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-arrow-light.gif">btn-arrow-light.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-arrow.gif">btn-arrow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-over-bg.gif">btn-over-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="gray-bg.gif">gray-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="more.gif">more.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-bg.gif">tb-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-btn-sprite.gif">tb-btn-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-xl-btn-sprite.gif">tb-xl-btn-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-xl-sep.gif">tb-xl-sep.gif</ProjectItem>
+            </Folder>
+            <Folder Name="tree" TargetFolderName="tree">
+              <ProjectItem ReplaceParameters="false" TargetFileName="arrows.gif">arrows.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-add.gif">drop-add.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-between.gif">drop-between.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-no.gif">drop-no.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-over.gif">drop-over.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-under.gif">drop-under.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="drop-yes.gif">drop-yes.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-end-minus-nl.gif">elbow-end-minus-nl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-end-minus.gif">elbow-end-minus.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-end-plus-nl.gif">elbow-end-plus-nl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-end-plus.gif">elbow-end-plus.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-end.gif">elbow-end.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-line.gif">elbow-line.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-minus-nl.gif">elbow-minus-nl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-minus.gif">elbow-minus.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-plus-nl.gif">elbow-plus-nl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow-plus.gif">elbow-plus.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="elbow.gif">elbow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="folder-open-share.gif">folder-open-share.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="folder-open.gif">folder-open.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="folder-share.gif">folder-share.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="folder.gif">folder.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="leaf.gif">leaf.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="loading.gif">loading.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="s.gif">s.gif</ProjectItem>
+            </Folder>
+            <Folder Name="window" TargetFolderName="window">
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-error.gif">icon-error.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-info.gif">icon-info.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-question.gif">icon-question.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-warning.gif">icon-warning.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-corners.png">left-corners.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-corners.psd">left-corners.psd</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-right.png">left-right.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-right.psd">left-right.psd</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="right-corners.png">right-corners.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="right-corners.psd">right-corners.psd</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.png">top-bottom.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.psd">top-bottom.psd</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="gray" TargetFolderName="gray">
+            <Folder Name="button" TargetFolderName="button">
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-arrow.gif">btn-arrow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-sprite.gif">btn-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn.gif">btn.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-cs.gif">group-cs.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-lr.gif">group-lr.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="group-tb.gif">group-tb.gif</ProjectItem>
+            </Folder>
+            <Folder Name="common" TargetFolderName="common">
+              <ProjectItem ReplaceParameters="false" TargetFileName="adobe.gif">adobe.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="audio.gif">audio.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="button_bg.gif">button_bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="button_hover.gif">button_hover.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="commonmarker.png">commonmarker.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="desktopitembg.gif">desktopitembg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="excel.gif">excel.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="gongzuomarker.png">gongzuomarker.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="headerbg.gif">headerbg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ime.jpg">ime.jpg</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="login_button.gif">login_button.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="login_headerbg.gif">login_headerbg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="login_panel.gif">login_panel.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="logintopleft.gif">logintopleft.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="logintopmiddle.gif">logintopmiddle.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="logintopright.gif">logintopright.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="main_header.gif">main_header.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="middle_bg.gif">middle_bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="others.gif">others.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ppt.gif">ppt.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="rar.gif">rar.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="resize-hover.png">resize-hover.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="resize.png">resize.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="uitoolbarbg.gif">uitoolbarbg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="word.gif">word.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="xuanzhuan-hover.png">xuanzhuan-hover.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="xuanzhuan.png">xuanzhuan.png</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName="gradient-bg.gif">gradient-bg.gif</ProjectItem>
+            <Folder Name="panel" TargetFolderName="panel">
+              <ProjectItem ReplaceParameters="false" TargetFileName="corners-sprite.gif">corners-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-right.gif">left-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="light-hd.gif">light-hd.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tool-sprite-tpl.gif">tool-sprite-tpl.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tool-sprites.gif">tool-sprites.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tools-sprites-trans.gif">tools-sprites-trans.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.gif">top-bottom.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.png">top-bottom.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="white-corners-sprite.gif">white-corners-sprite.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="white-left-right.gif">white-left-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="white-top-bottom.gif">white-top-bottom.gif</ProjectItem>
+            </Folder>
+            <Folder Name="qtip" TargetFolderName="qtip">
+              <ProjectItem ReplaceParameters="false" TargetFileName="bg.gif">bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="close.gif">close.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tip-sprite.gif">tip-sprite.gif</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName="s.gif">s.gif</ProjectItem>
+            <Folder Name="tab" TargetFolderName="tab">
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-l.png">tab-l.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-m.png">tab-m.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-r.png">tab-r.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab_menu_selected_bg.png">tab_menu_selected_bg.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab_menu_selected_left.png">tab_menu_selected_left.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab_menu_selected_right.png">tab_menu_selected_right.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabhover-l.png">tabhover-l.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabhover-m.PNG">tabhover-m.PNG</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabhover-r.png">tabhover-r.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabs_active.png">tabs_active.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabs_arrow2.png">tabs_arrow2.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabselected-l.png">tabselected-l.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabselected-m.png">tabselected-m.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabselected-r.png">tabselected-r.png</ProjectItem>
+            </Folder>
+            <Folder Name="tabs" TargetFolderName="tabs">
+              <ProjectItem ReplaceParameters="false" TargetFileName="scroll-left.gif">scroll-left.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="scroll-right.gif">scroll-right.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="scroller-bg.gif">scroller-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-inactive-left-bg.gif">tab-btm-inactive-left-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-inactive-right-bg.gif">tab-btm-inactive-right-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-left-bg.gif">tab-btm-left-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-btm-right-bg.gif">tab-btm-right-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-close.gif">tab-close.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-strip-bg.gif">tab-strip-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-strip-bg.png">tab-strip-bg.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tab-strip-btm-bg.gif">tab-strip-btm-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabs-sprite.gif">tabs-sprite.gif</ProjectItem>
+            </Folder>
+            <Folder Name="toolbar" TargetFolderName="toolbar">
+              <ProjectItem ReplaceParameters="false" TargetFileName="bg.gif">bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-arrow-light.gif">btn-arrow-light.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-arrow.gif">btn-arrow.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="btn-over-bg.gif">btn-over-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="gray-bg.gif">gray-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="more.gif">more.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-bg.gif">tb-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tb-btn-sprite.gif">tb-btn-sprite.gif</ProjectItem>
+            </Folder>
+            <Folder Name="window" TargetFolderName="window">
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-error.gif">icon-error.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-info.gif">icon-info.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-question.gif">icon-question.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="icon-warning.gif">icon-warning.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-corners.png">left-corners.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-corners.pspimage">left-corners.pspimage</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="left-right.png">left-right.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="right-corners.png">right-corners.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="top-bottom.png">top-bottom.png</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="icons" TargetFolderName="icons">
+            <ProjectItem ReplaceParameters="false" TargetFileName="access.jpg">access.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="accordion.gif">accordion.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="activity.png">activity.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="add.png">add.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="add_p.png">add_p.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="application.png">application.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="black.jpg">black.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="cancel.png">cancel.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="cancel1.png">cancel1.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="chart.gif">chart.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="close.png">close.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="collapse-all.gif">collapse-all.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="darkgray.jpg">darkgray.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="del-file.png">del-file.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="delete.png">delete.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="delete_p.png">delete_p.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="docs.gif">docs.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="download-file.png">download-file.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="download.gif">download.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="edit.png">edit.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="email.png">email.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="email_list.png">email_list.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="excel.png">excel.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="expand-all.gif">expand-all.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="form.png">form.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="grant.png">grant.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="gray.jpg">gray.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="green.jpg">green.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="grid_list.png">grid_list.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="help.png">help.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="hr.png">hr.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="im.png">im.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="image_add.png">image_add.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="info.gif">info.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="key.gif">key.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="key_edit.png">key_edit.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="layout.png">layout.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="layout1.png">layout1.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="layout2.png">layout2.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="layout3.png">layout3.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="layout4.png">layout4.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="link.png">link.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="load_r.png">load_r.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="loading.gif">loading.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="loading32.gif">loading32.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login.png">login.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="logout.png">logout.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="logout_o.png">logout_o.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="man.png">man.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="nav.png">nav.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="news.png">news.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="no.png">no.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="note.png">note.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="notice.png">notice.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="ok.png">ok.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="open_menu.png">open_menu.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="panel.png">panel.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="pdf.png">pdf.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="person_info_edit.png">person_info_edit.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="purple.jpg">purple.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="qian.png">qian.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="refresh.gif">refresh.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="reset.png">reset.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="result.png">result.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="save.png">save.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="search.png">search.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="search_form.png">search_form.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="shiny.gif">shiny.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="slate.jpg">slate.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="status_away.png">status_away.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="status_busy.png">status_busy.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="status_offline.png">status_offline.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="status_online.png">status_online.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="stop.png">stop.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="style.png">style.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="sys_config.png">sys_config.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="system.png">system.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="tip.png">tip.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="tree.png">tree.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="upload-file.png">upload-file.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="user_info.png">user_info.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="user_set.png">user_set.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="validate_normal.gif">validate_normal.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="version.png">version.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="vista.jpg">vista.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="word.png">word.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="workflow.png">workflow.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="yes.png">yes.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="js" TargetFolderName="js">
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.2.min.js">jquery-1.4.2.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jQuery.easyui.js">jQuery.easyui.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.easyui.min.js">jquery.easyui.min.js</ProjectItem>
+          <Folder Name="locale" TargetFolderName="locale">
+            <ProjectItem ReplaceParameters="true" TargetFileName="easyui-lang-zh_CN.js">easyui-lang-zh_CN.js</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="outlook2.js">outlook2.js</ProjectItem>
+          <Folder Name="themes" TargetFolderName="themes">
+            <Folder Name="default" TargetFolderName="default">
+              <ProjectItem ReplaceParameters="true" TargetFileName="accordion.css">accordion.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="combobox.css">combobox.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="combotree.css">combotree.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="datagrid.css">datagrid.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dialog.css">dialog.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="easyui.css">easyui.css</ProjectItem>
+              <Folder Name="images" TargetFolderName="images">
+                <ProjectItem ReplaceParameters="false" TargetFileName="button_a_bg.gif">button_a_bg.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="button_plain_hover.png">button_plain_hover.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="button_span_bg.gif">button_span_bg.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="combo_arrow.gif">combo_arrow.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="datagrid_header_bg.gif">datagrid_header_bg.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="datagrid_sort_asc.gif">datagrid_sort_asc.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="datagrid_sort_desc.gif">datagrid_sort_desc.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="datagrid_title_bg.png">datagrid_title_bg.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="layout_button_down.gif">layout_button_down.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="layout_button_left.gif">layout_button_left.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="layout_button_right.gif">layout_button_right.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="layout_button_up.gif">layout_button_up.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="menu.gif">menu.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="menu_downarrow.png">menu_downarrow.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="menu_rightarrow.png">menu_rightarrow.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="menu_sep.png">menu_sep.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="menu_split_downarrow.png">menu_split_downarrow.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="messager_error.gif">messager_error.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="messager_info.gif">messager_info.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="messager_question.gif">messager_question.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="messager_warning.gif">messager_warning.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="pagination_first.gif">pagination_first.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="pagination_last.gif">pagination_last.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="pagination_load.png">pagination_load.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="pagination_loading.gif">pagination_loading.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="pagination_next.gif">pagination_next.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="pagination_prev.gif">pagination_prev.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="panel_loading.gif">panel_loading.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="panel_title.png">panel_title.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="panel_tool_collapse.gif">panel_tool_collapse.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="panel_tool_expand.gif">panel_tool_expand.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="panel_tools.gif">panel_tools.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tabs_active.png">tabs_active.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tabs_close.gif">tabs_close.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tabs_enabled.png">tabs_enabled.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tabs_leftarrow.png">tabs_leftarrow.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tabs_rightarrow.png">tabs_rightarrow.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tree_arrows.gif">tree_arrows.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tree_file.gif">tree_file.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tree_folder.gif">tree_folder.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tree_folder_open.gif">tree_folder_open.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="tree_loading.gif">tree_loading.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="validatebox_pointer.gif">validatebox_pointer.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="validatebox_warning.png">validatebox_warning.png</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="layout.css">layout.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="linkbutton.css">linkbutton.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="menu.css">menu.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="menubutton.css">menubutton.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messager.css">messager.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="pagination.css">pagination.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="panel.css">panel.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="splitbutton.css">splitbutton.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="tabs.css">tabs.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="tree.css">tree.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="validatebox.css">validatebox.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="window.css">window.css</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="icon.css">icon.css</ProjectItem>
+            <Folder Name="icons" TargetFolderName="icons">
+              <ProjectItem ReplaceParameters="false" TargetFileName="back.png">back.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="blocks.gif">blocks.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="cancel.png">cancel.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="CategorizeMenu.png">CategorizeMenu.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="cut.png">cut.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="directory.png">directory.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="edit_add.png">edit_add.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="edit_remove.png">edit_remove.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="filesave.png">filesave.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="help.png">help.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="layout-browser-hd-bg.gif">layout-browser-hd-bg.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="nav_link.png">nav_link.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="no.png">no.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="noscript.gif">noscript.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ok.png">ok.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="pencil.png">pencil.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="plugin_big.gif">plugin_big.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="print.png">print.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="redo.png">redo.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="reload.png">reload.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="search.png">search.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ShowCustomPropertiesPage.png">ShowCustomPropertiesPage.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tabicons.png">tabicons.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="TableDrawTable.png">TableDrawTable.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="tools-sprites-trans.gif">tools-sprites-trans.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="undo.png">undo.png</ProjectItem>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="login" TargetFolderName="login">
+          <Folder Name="images" TargetFolderName="images">
+            <ProjectItem ReplaceParameters="false" TargetFileName="bt_bg.gif">bt_bg.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="login.css">login.css</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_03.gif">login_03.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_05.gif">login_05.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_09.png">login_09.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_11.gif">login_11.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_13.gif">login_13.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_16.gif">login_16.gif</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="login_18.gif">login_18.gif</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SQLdel.aspx">SQLdel.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SQLdel.aspx.cs">SQLdel.aspx.cs</ProjectItem>
+      <Folder Name="UploadFile" TargetFolderName="UploadFile" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="User.aspx">User.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="User.aspx.cs">User.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="考勤系统.sln">vstg0003.sln</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

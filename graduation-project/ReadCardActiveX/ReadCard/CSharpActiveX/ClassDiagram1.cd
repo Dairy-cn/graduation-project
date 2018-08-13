@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSharpActiveX.ActiveXControl" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAQQAACAAAggAAAACQAAAAQAAAAEAAAgAAAA=</HashCode>
+      <FileName>ActiveXControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CSharpActiveX.MacActiveX">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CSharpActiveX.MacActiveX.cardregion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MacActiveX.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAAAAAAIAAAAAAAAAAAgQAAAAAgAACAE=</HashCode>
+      <FileName>MacActiveX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpActiveX.umfatlClass">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAAAAAAAAIAQASAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>umfatlClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CSharpActiveX.IObjectSafety">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObjectSafety.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

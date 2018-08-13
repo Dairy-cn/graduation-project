@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "靠䂏顨䂏餐䂏馰䂏駸䂏騌䂏", "ReadCardSetup\ReadCardSetup.vdproj", "{61AD7A06-EF3F-43C8-A853-D4124484467E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AD7A06-EF3F-43C8-A853-D4124484467E}.Debug|Any CPU.ActiveCfg = Debug
+		{61AD7A06-EF3F-43C8-A853-D4124484467E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+    <title>CSharpActiveX测试</title>
+</head>
+<body>
+
+
+    <object id="csharpActiveX" classid="clsid:A4933801-4419-4DCF-9090-8CC2A1A8DA86" codebase="ReadCardSetup.CAB#version=1.0.0" style="display: none;"></object>
+    <script type="text/javascript" language="javascript">
+        var activeX = document.getElementById("csharpActiveX");
+		
+        
+		
+		
+	      alert(activeX.InitialcomCard());
+	      alert(activeX.ReadercardStr());
+
+
+	      //WriteCardData(int Block, int Mode, string Data, int SecNum) 
+	      //Block 为块地址 Mode为密码模式 其中A密码用0代表，B密码用4代表；
+	      //Data为需要输入的数据，数据为16为字节；
+	      //SecNum为扇区
+	      //卡内有0~63共64个地址块，0-15共16个扇区；
+	      //每个扇区4块，第一扇区用于存放厂商代码，已被固话，不能更改
+	      //每个扇区0~2块为数据块，用于存储数据，其中，块0只能读，块1和块2用于存储数据，块3为控制块，用于存放密码
+	      //密码A可
+	      alert(activeX.ReaderCardData(8,0,2));
+	      alert(activeX.WriteCardData(8,4,"2222222222222233",2));
+	      alert(activeX.ReaderCardData(8,0,2));
+	      alert(activeX.CloseCard());
+
+
+
+
+
+	      
+
+
+        
+		
+	
+    </script>
+
+
+    
+</body>
+</html>

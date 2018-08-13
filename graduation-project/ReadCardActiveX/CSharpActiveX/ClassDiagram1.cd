@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ReadCardActiveX.ActiveXControl" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAQQAACAAAggAAAACQAAAAQAAAAEAAAgAAAA=</HashCode>
+      <FileName>ActiveXControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReadCardActiveX.MacActiveX">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ReadCardActiveX.MacActiveX.cardregion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MacActiveX.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAIAAAACAACgAAgwAAAAAgAACAA=</HashCode>
+      <FileName>MacActiveX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReadCardActiveX.umfatClass">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAIAQASAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>umfatlClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ReadCardActiveX.IObjectSafety">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObjectSafety.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

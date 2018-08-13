@@ -1,0 +1,80 @@
+
+.qiandaojiemian {
+
+   text-align: center;
+
+}
+
+.GridViewRowStyle td
+{
+    border: 1px solid #d0d0d0;
+    height: 24px;
+    text-align: left;
+    color: #777;
+    padding: 2px;
+}
+.GridViewRowStyle td a
+{
+    color: #777;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 1px;
+}
+.GridViewRowStyle td a:hover
+{
+    border-bottom: 1px solid #868686;
+    padding-bottom: 1px;
+    color: #868686;
+}
+
+.GridViewAlternatingRowStyle td
+{
+    border: 1px solid #d0d0d0;
+    height: 24px;
+    text-align: left;
+    color: #777;
+    padding: 2px;
+}
+.GridViewAlternatingRowStyle td a
+{
+    color: #777;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 1px;
+}
+.GridViewAlternatingRowStyle td a:hover
+{
+    border-bottom: 1px solid #868686;
+    padding-bottom: 1px;
+    color: #868686;
+}
+
+
+.GridViewPagerStyle
+{
+    color: #333; 
+        background: #fff;
+        padding: 5px;
+        text-align: left;
+    }
+    
+  
+.GridViewPagerStyle td
+{
+    border: 1px solid #d0d0d0;
+    height: 24px;
+    text-align: left;
+    color: #777;
+    padding: 2px;
+}
+.GridViewPagerStyle td a
+{
+    color: #777;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 1px;
+}
+.GridViewPagerStyle td a:hover
+{
+    
+    color: #868686;
+}
+  
+    

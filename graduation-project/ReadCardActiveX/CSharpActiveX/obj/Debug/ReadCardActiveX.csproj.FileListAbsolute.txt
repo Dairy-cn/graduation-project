@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\src\CSharpActiveX\bin\Debug\CSharpActiveX.dll
+C:\Users\Administrator\Desktop\src\CSharpActiveX\bin\Debug\CSharpActiveX.pdb
+C:\Users\Administrator\Desktop\src\CSharpActiveX\obj\Debug\ReadCardActiveX.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\src\CSharpActiveX\obj\Debug\CSharpActiveX.dll
+C:\Users\Administrator\Desktop\src\CSharpActiveX\obj\Debug\CSharpActiveX.pdb
